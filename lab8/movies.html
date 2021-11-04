@@ -1,0 +1,59 @@
+<!-- Jack Roach
+Unique ID: roachjd2
+October 27, 2021
+CSE 102 - Section D
+
+Lab 8
+Page: movies.html
+Style: styleme.css -->
+
+<!doctype html>
+<html>
+
+<head>
+	<title>About Me Website</title>
+
+	<link rel="stylesheet" type="text/css" href="styleme.css" />
+	<script>
+		function Home() {
+			document.location.href = "index.html";
+		}
+		function Classes() {
+			document.location.href = "classes.html";
+		}
+		function Movies() {
+			document.location.href = "movies.html";
+		}
+		function Mood() {
+			document.location.href = "mood.html";
+		}
+		function FamilyNeighbors() {
+			document.location.href = "family.html";
+		}
+		function ChangeColor() {
+			document.body.style.background = '#001540';
+		}
+	</script>
+</head>
+
+<body>
+	<button onclick="Home()">Home</button>
+	<button onclick="Classes()">Classes</button>
+	<button onclick="Movies()"><b>Movies</b></button>
+	<button onclick="Mood()">Mood</button>
+	<button onclick="FamilyNeighbors()">Family & Neighbors</button>
+	<hr>
+	<h1>Favorite Movies</h1>
+	<p> 
+		<ol>
+			<li><i>The Godfather</i> (<a href="https://www.imdb.com/title/tt0068646/">IMDB</a>)</li>
+			<li><i>Avengers: Endgame</i> (<a href="https://www.imdb.com/title/tt4154796/">IMDB</a>)</li>
+			<li><i>Saving Private Ryan</i> (<a href="https://www.imdb.com/title/tt0120815/">IMDB</a>)</li>
+		</ol>
+	</p>
+	<br>
+	<hr>
+	<button onclick="ChangeColor()">Change To Blue Background!</button>
+</body>
+
+</html>

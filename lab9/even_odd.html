@@ -1,0 +1,69 @@
+<!-- Jack Roach
+    Unique ID: roachjd2
+    November 3, 2021
+    CSE 102 - Section D
+    
+    Lab 9
+    Page: even_odd.html
+    Style: styleme.css
+-->
+<!doctype html> 
+<html>
+	<head>
+		<title>Check if Even or Odd</title>
+		<link rel="stylesheet" type="text/css" href="styleme.css" />
+		<script>
+			function Home() {
+				document.location.href = "index.html";
+				}
+			function Classes() {
+				document.location.href = "classes.html";
+				}
+			function Movies() {
+				document.location.href = "movies.html";
+				}
+			function Mood() {
+				document.location.href = "mood.html";
+				}
+			function FamilyNeighbors() {
+				document.location.href = "family.html";
+				}
+			function Programs() {
+				document.location.href = "programs.html";
+				}	
+			function ChangeColor() {
+				document.body.style.background = '#001540';
+				}
+		</script>
+	</head>
+	<body>
+		<button onclick="Home()">Home</button>
+		<button onclick="Classes()">Classes</button>
+		<button onclick="Movies()">Movies</button>
+		<button onclick="Mood()">My Mood</button>
+		<button onclick="FamilyNeighbors()">Family & Neighbors</button>	
+		<button onclick="Programs()">My Programs</button>
+		<hr>
+		<h1>Check if Even or Odd</h1>
+		<p>
+			Enter any integer:
+			<input type="text" id="numberBox" size="10" value=""/>
+		</p>
+		<p>
+			<input type="button" value="Check if even or odd" onclick="inputNum = document.getElementById('numberBox').value;
+				if(inputNum%2==0){
+				document.getElementById('typeBox').value = 'Even';
+				}else {
+				document.getElementById('typeBox').value = 'Odd';
+				}" />
+		</p>
+		</p>
+		<p>
+			Your integer is:
+			<input type="text" id="typeBox" size="10" value=""/>
+		</p>
+		<br>
+		<hr>
+		<button onclick="ChangeColor()">Change To Blue Background!</button>
+	</body>
+</html>

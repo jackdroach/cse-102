@@ -1,0 +1,22 @@
+h1, h2 {
+    font-family : verdana;
+    color : white;
+}
+
+body {
+    font-family : sans-serif;
+    background-color : #1a1a1d;
+    color : rgb(200, 200, 200);
+}
+
+b {
+    color : #00d7ff;
+}
+
+a {
+    color : #ff6464;
+}
+
+pre {
+    font-family : sans-serif;
+}

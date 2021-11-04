@@ -1,0 +1,61 @@
+<!-- Jack Roach
+    Unique ID: roachjd2
+    November 3, 2021
+    CSE 102 - Section D
+    
+    Lab 9
+    Page: classes.html
+    Style: styleme.css
+-->
+<!doctype html> 
+<html>
+	<head>
+		<title>Current Classes</title>
+		<link rel="stylesheet" type="text/css" href="styleme.css" />
+		<script>
+			function Home() {
+				document.location.href = "index.html";
+				}
+			function Classes() {
+				document.location.href = "classes.html";
+				}
+			function Movies() {
+				document.location.href = "movies.html";
+				}
+			function Mood() {
+				document.location.href = "mood.html";
+				}
+			function FamilyNeighbors() {
+				document.location.href = "family.html";
+				}
+			function Programs() {
+				document.location.href = "programs.html";
+				}	
+			function ChangeColor() {
+				document.body.style.background = '#001540';
+				}
+		</script>
+	</head>
+	<body>
+		<button onclick="Home()">Home</button>
+		<button onclick="Classes()"><b>Classes</b></button>
+		<button onclick="Movies()">Movies</button>
+		<button onclick="Mood()">My Mood</button>
+		<button onclick="FamilyNeighbors()">Family & Neighbors</button>	
+		<button onclick="Programs()">My Programs</button>
+		<hr>
+		<h1>Current Classes</h1>
+		<p>
+		<ul>
+			<li>CSE 101 - Computing, Engineering&Society</li>
+			<li>CSE 102 - Computer Sci & Software Eng.</li>
+			<li>CEC 174 - Fundmntls-Progrming&Prob Solvg</li>
+			<li>MTH 151 - Calculus I</li>
+			<li>ART 188 - Hst Of West Art/Renais-Modern</li>
+		</ul>
+		</p>
+		<br>
+		<hr>
+		<button onclick="ChangeColor()">Change To Blue Background!</button>
+	</body>
+</html>

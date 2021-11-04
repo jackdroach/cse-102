@@ -1,0 +1,59 @@
+<!-- Jack Roach
+    Unique ID: roachjd2
+    November 3, 2021
+    CSE 102 - Section D
+    
+    Lab 9
+    Page: mood.html
+    Style: styleme.css
+-->
+<!doctype html> 
+<html>
+	<head>
+		<title>My Mood</title>
+		<link rel="stylesheet" type="text/css" href="styleme.css" />
+		<script>
+			function Home() {
+				document.location.href = "index.html";
+				}
+			function Classes() {
+				document.location.href = "classes.html";
+				}
+			function Movies() {
+				document.location.href = "movies.html";
+				}
+			function Mood() {
+				document.location.href = "mood.html";
+				}
+			function FamilyNeighbors() {
+				document.location.href = "family.html";
+				}
+			function Programs() {
+				document.location.href = "programs.html";
+				}	
+			function ChangeColor() {
+				document.body.style.background = '#001540';
+				}
+		</script>
+	</head>
+	<body>
+		<button onclick="Home()">Home</button>
+		<button onclick="Classes()">Classes</button>
+		<button onclick="Movies()">Movies</button>
+		<button onclick="Mood()"><b>My Mood</b></button>
+		<button onclick="FamilyNeighbors()">Family & Neighbors</button>	
+		<button onclick="Programs()">My Programs</button>
+		<hr>
+		<h1>Pictures for My Mood</h1>
+		<p>
+		<p>
+		<pre>Happy:                                                                                                Sad:</pre>
+		</p>
+		<img src="happy.jpg " width="25%" height="25%">
+		<img src="sad.jpg" width="20%" height="20%">
+		</p>
+		<br>
+		<hr>
+		<button onclick="ChangeColor()">Change To Blue Background!</button>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<!-- Jack Roach
+Unique ID: roachjd2
+October 27, 2021
+CSE 102 - Section D
+
+Lab 8
+Page: family.html
+Style: styleme.css -->
+
+<!doctype html> 
+<html>
+	<head>
+		<title>About Me Website</title>
+		
+		<link rel="stylesheet" type="text/css" href="styleme.css" />
+		<script>
+		function Home() {
+			document.location.href = "index.html";
+			}
+		function Classes() {
+			document.location.href = "classes.html";
+			}
+		function Movies() {
+			document.location.href = "movies.html";
+			}
+		function Mood() {
+			document.location.href = "mood.html";
+			}
+		function FamilyNeighbors() {
+			document.location.href = "family.html";
+			}
+		function ChangeColor() {
+			document.body.style.background = '#001540';
+			}
+		</script>
+	</head>
+	
+	<body>
+		<button onclick="Home()">Home</button>
+		<button onclick="Classes()">Classes</button>
+		<button onclick="Movies()">Movies</button>
+		<button onclick="Mood()">Mood</button>
+		<button onclick="FamilyNeighbors()"><b>Family & Neighbors</b></button>	
+		<hr>
+		<h1>Family & Neighbors</h1>
+		<p>
+			<ul>
+				<li>Three of my family members are Miami Univerity alumni.</li>
+				<li>One of my neighbors has 6 dogs.</li>
+			</ul>
+		</p>
+		<br>
+		<hr>
+		<button onclick="ChangeColor()">Change To Blue Background!</button>
+	</body>
+</html>
